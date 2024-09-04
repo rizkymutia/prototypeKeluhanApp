@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan</title>
+</head>
+<body>
+    <navbar>
+        <div>
+            <a href="home.html">Logo</h2>
+        </div>
+        <div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </navbar>
+
+    <div>
+        <h3>Laporan</h3>
+        <form>
+            <label for="kategori">Kategori Keluhan</label>
+            <select name="laporan" id="laporan">
+                <option value="1">Keluhan Pada Guru</option>
+                <option value="2">Keluhaman Pada Siswa</option>
+                <option value="3">Keluhan Fasilitas Sekolah</option>
+                <option value="4">Keluhan Pada Kurikulum</option>
+            </select>
+            <label for="lokasi">Lokasi</label>
+            <input type="text" name="lokasi" id="lokasi">
+            <input type="file" name="file" id="file">
+            <label for="deskripsi">Deskripsi Keluhan</label>
+            <textarea name="deskripsi" id="deskripsi" cols="30" rows="10"></textarea>
+         
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
